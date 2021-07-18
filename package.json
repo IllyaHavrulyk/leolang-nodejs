@@ -1,0 +1,23 @@
+{
+  "name": "leolang",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IllyaHavrulyk/leolang-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IllyaHavrulyk/leolang-nodejs/issues"
+  },
+  "homepage": "https://github.com/IllyaHavrulyk/leolang-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

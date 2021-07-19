@@ -1,4 +1,5 @@
 module.exports = {
+  parser: '@babel/eslint-parser',
   env: {
     browser: true,
     es2021: true,
@@ -10,7 +11,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 0,
-    'no-use-before-define': 0,
+    'no-use-before-define': 1,
     'no-underscore-dangle': 0,
     'no-unused-vars': 1,
     'class-methods-use-this': 0,
